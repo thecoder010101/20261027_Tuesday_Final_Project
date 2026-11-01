@@ -10,3 +10,9 @@
 - 의존성 변경은 `package.json`과 `package-lock.json`에 반영한다.
 - 프로젝트는 GitHub에 업로드한 뒤 Netlify로 배포한다. 빌드 명령은 `npm run build`이고 결과물 폴더는 `dist`다.
 - `node_modules/`와 `dist/`는 Git에 커밋하지 않는다.
+
+## 자기소개 사이트의 콘텐츠
+
+- 이름은 김주연, 직업은 교사다.
+- 학교명, 담당 교과, 경력, 연락처 등은 사용자가 제공하기 전까지 임의로 추가하지 않는다.
+- 사이트 소개 문구와 디자인은 이후 요청에 맞춰 수정할 수 있도록 HTML, CSS, JavaScript를 분리해 유지한다.
